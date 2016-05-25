@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500italic);
+
+body{
+	background-image: url("../img/fondo4.png");
+}
+
+.logo{
+	margin-top:-2rem; 
+	margin-left:-2rem;
+	max-width: 23rem;
+	height: auto;
+}
+
+
+.fondo2{
+	margin-top: 5rem;
+	background-image: url("../img/banner4.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 7.9% 0%;
+}
+
+.fondo2 h1{
+	color: rgba(39, 108, 248, 1);
+	text-shadow: 2px 2px #EDECFF;
+	font-family: 'Roboto Mono';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 50px;
+
+}
+
+nav{
+	margin: 0px !important;
+	padding: 0px;
+	position: fixed  !important;
+	top: 0; 
+	z-index: 10;
+	width: 100%;
+}
+
+.bcontactanos{
+	background-color: rgba(2, 93, 153 ,.50 );
+	color: white;
+	font-family: 'Roboto Mono';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+	border: white solid 3px;
+	border-radius: 15px;
+}
+
+.bcontactanos:hover{
+	background-color: rgba(2, 93, 153 ,1 );
+}
+
+.servicios{
+	padding: 0;
+	margin: 20px 0px;
+	border-bottom: dashed 2px rgba(39, 108, 248, 1);
+}
+
+h2{
+	color: rgba(39, 108, 248, 1);
+	font-family: 'Roboto Mono';
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+p{
+	color: rgba(black);
+	font-family: 'Roboto Mono';
+	font-size: 12px;
+	text-align: justify;
+}
+
+.mapaform{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.mapa{
+	border-right: dashed 2px rgba(39, 108, 248, 1);
+}
+
+.formc{
+	text-align: center ;
+}
+
+.inform{
+	text-align: center;
+	width: 450px;
+	background-color: rgba(2, 93, 153 ,.20 );
+	color: rgba(2, 93, 153 ,1 );
+	padding: 10px;
+	border-radius: 10px;
+	border: ridge rgba(2, 93, 153 ,1 ) 2px;
+}
+
+.informc{
+	text-align: center;
+	width: 150px;
+	background-color: rgba(2, 93, 153 ,.20 );
+	color: rgba(2, 93, 153 ,1 );
+	margin-left: 10px;	
+	padding: 5px;
+	border-radius: 10px;
+	border: ridge rgba(2, 93, 153 ,1 ) 2px;
+
+}
+
+.informcom{
+	text-align: justify;
+	width: 450px;
+	background-color: rgba(2, 93, 153 ,.20 );
+	color: rgba(2, 93, 153 ,1 );
+	padding: 10px;
+	border-radius: 10px;
+	border: ridge rgba(2, 93, 153 ,1 ) 2px;
+	resize: none;
+	height: 100px;
+}
+
+.lform{
+	text-align: right;
+	color: rgba(2, 93, 153 ,1 );
+}
+
+.lfu{
+	margin: 12px 0px;
+}
+
+.lft{
+	margin: 40px 0px;
+}
+
+.lformf{
+	text-align: center;
+	color: rgba(2, 93, 153 ,1 );
+}
+
+::-webkit-input-placeholder { color: white; text-align: center; padding-top: 28px;} /* WebKit */
+:-moz-placeholder { color: white; text-align: center;} /* Firefox 18- */
+::-moz-placeholder { color: white; text-align: center;} /* Firefox 19+ */
+:-ms-input-placeholder { color: white; text-align: center;} /* IE 10+ */
+
+.benviar{
+	text-align: center;
+	width: 200px;
+	background-color: rgba(2, 93, 153 ,.20 );
+	color: rgba(2, 93, 153 ,1 );
+	padding: 1px;
+	border-radius: 10px;
+	border: ridge rgba(2, 93, 153 ,1 ) 2px;
+	resize: none;
+	height: 30px;
+}
+
+.benviar:hover{
+	text-align: center;
+	width: 200px;
+	background-color: rgba(2, 93, 153 ,1 );
+	color: white;
+	padding: 1px;
+	border-radius: 10px;
+	border: ridge rgba(2, 93, 153 ,1 ) 2px;
+	resize: none;
+	height: 30px;
+}
+
+footer{
+	background-image: url("../img/fondo3.png");
+	height: 150px;
+}
+
+.logof{
+	width: 100%;
+	height: auto;
+}
